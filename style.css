@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto sans', sans-serif;
+}
+
+body {
+    background-color: #524C42;
+}
+
+.sides .left {
+    position: absolute;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    top: 0;
+    background-color: #E2DFD0;
+    height: 100%;
+    border-top-right-radius: 80PX;
+    border-bottom-right-radius: 80PX;
+}
+
+.sides .left h2 {
+    font-size: 18px;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 50%;
+    font-weight: 700;
+    color: #524C42;
+}
+
+.sides .left p {
+    width: 50%;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 50px;
+    color: #989898;
+}
+
+
+.sides .left button {
+    border: none;
+    padding: 20px 30px;
+    margin: 0 120px;
+    margin-top: 50px;
+    cursor: pointer;
+    border-radius: 22px;
+    transition: all 0.3s ease;
+}
+
+.sides .right {
+    position: absolute;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    background-color: #E2DFD0;
+    height: 100%;
+    top: 0;
+    border-top-left-radius: 80PX;
+    border-bottom-left-radius: 80PX;
+}
+
+.sides .right h2 {
+    font-size: 18px;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 50%;
+    font-weight: 700;
+    color: #524C42;
+}
+
+.sides .right p {
+    width: 50%;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 50px;
+    color: #989898;
+}
+
+.sides .right button {
+    border: none;
+    padding: 20px 30px;
+    margin: 0 120px;
+    margin-top: 50px;
+    cursor: pointer;
+    border-radius: 22px;
+    box-shadow: none;
+    transition: all 0.3s ease;
+}
+
+.sides .right button:hover,
+.sides .left button:hover {
+    background-color: #524C42;
+    color: #E2DFD0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.center {
+    margin-right: 10px;
+}
+
+
+.header {
+    margin-left: 45%;
+    margin-top: 50px;
+}
+
+.header .signin h1 {
+    font-size: 50px;
+    color: #E2DFD0;
+}
+
+.header .signin p {
+    font-size: 12px;
+    color: #989898;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.info {
+    margin: 7% 45%;
+}
+
+.info .login input {
+    border: 1px solid #E2DFD0;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 18px;
+    color: #E2DFD0;
+}
+
+.info .login h4 {
+    font-size: 18px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    color: #989898;
+}
+
+.info .password input {
+    border: 1px solid #E2DFD0;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 18px;
+    color: #E2DFD0;
+}
+
+.info .password h4 {
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #989898;
+}
+
+.info .but button {
+    border: 1px solid #E2DFD0;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 18px;
+    color: #E2DFD0;
+    margin-top: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.info .but button:hover {
+    background-color: #E2DFD0;
+    color: #524C42;
+}
